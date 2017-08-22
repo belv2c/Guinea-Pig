@@ -1,0 +1,15 @@
+.color {
+	color: blue;
+}
+
+.big {
+	font-size: 4em;
+}
+
+.solid {
+	border: 2px dotted green;
+}
+
+.round {
+	border-radius: 25px;
+}
