@@ -47,14 +47,19 @@ addBorderButton.addEventListener('click', function(e){
 	guineaPigDiv.setAttribute("class", "solid");
 })
 
-//This one isn't working?!?
+//Adds a click event to the Rounded button and targets the css border attributes
 roundButton.addEventListener('click', function(e){
 	guineaPigDiv.setAttribute("class", "round");
 })
 
-window.addEventListener('load', function(e){
-	console.log("I am here");
-})
+//Targets the article section class at the 0 index and adds the 'introduction' to the class list and makes it bold in the CSS
+document.getElementsByClassName('article-section')[0].classList.add('introduction');
 
+//Targets the article section class at the 5 idex and adds the 'conclusion' to the class list and makes it bold and italic in the CSS
+document.getElementsByClassName('article-section')[5].classList.add('conclusion');
 
+//Makes buttons inline
+["add-color", "make-large", "add-border", "add-rounding"].forEach(function(id){
+	document.getElementById(id)classList.add('button-group');
+});
 

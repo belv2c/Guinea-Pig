@@ -11,5 +11,19 @@
 }
 
 .round {
+	border: 2px dotted green;
 	border-radius: 25px;
+}
+
+.conclusion {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.introduction {
+	font-weight: bold;
+}
+
+.button-group {
+	display: inline-block;
 }
