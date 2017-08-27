@@ -61,5 +61,5 @@ document.getElementsByClassName('article-section')[5].classList.add('conclusion'
 //Makes buttons inline
 ["add-color", "make-large", "add-border", "add-rounding"].forEach(function(id){
 	document.getElementById(id)classList.add('button-group');
-});
+})
 
